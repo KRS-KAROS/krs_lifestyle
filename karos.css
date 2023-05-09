@@ -1,0 +1,141 @@
+.titolo {
+  position: absolute;
+  display: none;
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 5px 5px rgb(255, 255, 255));
+  margin-left: 800px;
+  width: 400px;
+}
+
+
+.boxkaros {
+  display: none;
+  float: left;
+  
+  background: linear-gradient(
+    -45deg,
+    rgba(33, 58, 202, 0.77) 0%,
+    rgba(0, 0, 0, 0.719) 80%
+  );
+  border: 1px rgba(0, 36, 240, 0.555) solid;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 4px;
+  width: 270px;
+  height: 400px;
+  
+  margin-top: 270px;
+  margin-left: 250px; /* Aggiunge un margine tra i box */
+}
+
+.boxkaros2 {
+  display: none;
+  float: left;
+  background: linear-gradient(
+    -45deg,
+    rgba(196, 33, 202, 0.77) 0%,
+    rgba(0, 0, 0, 0.719) 80%
+  );
+  border: 1px rgba(204, 0, 194, 0.555) solid;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 4px;
+  width: 270px;
+  height: 400px;
+  
+  margin-top: 270px;
+  margin-left: 100px; /* Aggiunge un margine tra i box */
+}
+
+.boxkaros3 {
+  display: none;
+  float: left;
+  background: linear-gradient(
+    -45deg,
+    rgba(202, 33, 33, 0.77) 0%,
+    rgba(0, 0, 0, 0.719) 80%
+  );
+  border: 1px rgba(204, 0, 0, 0.555) solid;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 4px;
+  width: 270px;
+  height: 400px;
+  
+  margin-top: 270px;
+  margin-left: 100px; /* Aggiunge un margine tra i box */
+}
+
+.boxkaros4 {
+  display: none;
+  float: left;
+  background: linear-gradient(
+    -45deg,
+    rgba(33, 202, 117, 0.77) 0%,
+    rgba(0, 0, 0, 0.719) 80%
+  );
+  border: 1px rgba(0, 204, 102, 0.555) solid;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 4px;
+  width: 270px;
+  height: 400px;
+  
+  margin-top: 270px;
+  margin-left: 100px; /* Aggiunge un margine tra i box */
+}
+
+
+
+.civil img {
+  margin-top: 26%;
+  margin-left: -20px;
+  width: 350px;
+}
+
+.gangster img {
+  margin-top: 20%;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.mafia img {
+  margin-top: 6%;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.imprenditore img {
+  margin-top: 15%;
+  margin-left: 10px;
+  width: 170px;
+}
+
+* {
+  transition: all 0.4s;
+}
+
+.boxkaros:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.boxkaros2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.boxkaros3:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.boxkaros4:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
