@@ -1,12 +1,13 @@
 const playerScelta = document.querySelector("#scelta");
 
 function apriScelta() {
-
+  document.querySelector(".sfondo").style.display = "block";
   document.querySelector(".titolo").style.display = "block";
   document.querySelector(".boxkaros").style.display = "block";
   document.querySelector(".boxkaros2").style.display = "block";
   document.querySelector(".boxkaros3").style.display = "block";
   document.querySelector(".boxkaros4").style.display = "block";
+  
 
 }
 
@@ -35,6 +36,7 @@ function selectCivil() {
     document.querySelector(".boxkaros2").style.display = "none";
     document.querySelector(".boxkaros3").style.display = "none";
     document.querySelector(".boxkaros4").style.display = "none";
+    document.querySelector(".sfondo").style.display = "none";
 }
 function selectGangster() {
     post(`https://krs_lifestyle/gangster`)
@@ -43,6 +45,7 @@ function selectGangster() {
     document.querySelector(".boxkaros2").style.display = "none";
     document.querySelector(".boxkaros3").style.display = "none";
     document.querySelector(".boxkaros4").style.display = "none";
+    document.querySelector(".sfondo").style.display = "none";
 }
 function selectDrifter() {
     post(`https://krs_lifestyle/drifter`)
@@ -51,6 +54,7 @@ function selectDrifter() {
     document.querySelector(".boxkaros2").style.display = "none";
     document.querySelector(".boxkaros3").style.display = "none";
     document.querySelector(".boxkaros4").style.display = "none";
+    document.querySelector(".sfondo").style.display = "none";
 }
 function selectMafia() {
     post(`https://krs_lifestyle/mafia`)
@@ -59,7 +63,9 @@ function selectMafia() {
     document.querySelector(".boxkaros2").style.display = "none";
     document.querySelector(".boxkaros3").style.display = "none";
     document.querySelector(".boxkaros4").style.display = "none";
+    document.querySelector(".sfondo").style.display = "none";
 }
+
 function selectImprenditore() {
     post(`https://krs_lifestyle/imprenditore`)
     document.querySelector(".titolo").style.display = "none";
@@ -67,6 +73,7 @@ function selectImprenditore() {
     document.querySelector(".boxkaros2").style.display = "none";
     document.querySelector(".boxkaros3").style.display = "none";
     document.querySelector(".boxkaros4").style.display = "none";
+    document.querySelector(".sfondo").style.display = "none";
 }
 
 
@@ -89,5 +96,6 @@ document.onkeydown = function (evt) {
     document.querySelector(".boxkaros2").style.display = "none";
     document.querySelector(".boxkaros3").style.display = "none";
     document.querySelector(".boxkaros4").style.display = "none";
+    document.querySelector(".sfondo").style.display = "none";
   }
 };
