@@ -15,14 +15,14 @@ server_script {
     'server/**.lua'
 }
 
-ui_page 'ui/**.html'
+ui_page 'karos.html'
 
 files{
-    'ui/**.html',
-    'ui/**.css',
-    'ui/**.js',
-    'img/**.png',
-    'img/**.png',
-    'img/**.png',
-    'img/**.png',
+    'karos.html',
+    'karos.css',
+    'karos.js',
+    'civil.png',
+    'entrepreneur.png',
+    'gangster.png',
+    'mafia.png',
 }
