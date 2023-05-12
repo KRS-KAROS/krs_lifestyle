@@ -23,7 +23,6 @@ end)
 
 RegisterCommand('life',function()
     openLife()
-    cb('ok')
 end)
 
 RegisterNUICallback('civil', function(data, cb)
